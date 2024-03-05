@@ -1,0 +1,76 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background:rgb(195, 214, 214);
+}
+h1{
+    text-align: center;
+    margin-top:25px;
+    font-size: 48px;
+      
+}
+
+
+/* container  to fix the position of a calculator. */
+.container{
+   
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* calculator design */
+.calculator{
+    
+    background-color: #181414;
+    padding:15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgb(45, 48, 46),
+                      5px 5px 12px rgba(129, 133, 133, 0.377);
+    display: grid;   
+  
+    grid-template-columns:repeat(4,68px);  
+             
+}
+/* input design */
+input{
+    
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color:rgb(110, 110, 101);
+    box-shadow: inset 5px 5px 12px #292424,
+                inset 5px 5px 12px  rgb(34, 34, 30);
+    color:black;
+    border-radius: 5px;
+    font-size:40px;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding:20px;
+    text-align: end;
+    border:none;
+     
+
+}
+/* styling the buttons */
+button{
+    
+    height: 40px;
+    width: 40px;
+    background-color: #242222;
+    box-shadow: inset 5px 5px 12px  rgb(31, 31, 26) ,
+                      5px 5px 12px rgb(31, 27, 27) ;
+    border:none;
+    border-radius:20%;
+    margin:8px;
+    font-size:16px;
+    color:white;    
+           
+    }
